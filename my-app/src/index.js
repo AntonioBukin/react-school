@@ -1,3 +1,4 @@
+import React from "react";
 import ReactDOM from "react-dom";
 import App from "./App";
 import paintings from "./paintings.json";
@@ -75,4 +76,9 @@ import paintings from "./paintings.json";
 
 // const painting = paintings[2];
 
-ReactDOM.render(<App />, document.querySelector("#root"));
+ReactDOM.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>,
+  document.querySelector("#root")
+);
