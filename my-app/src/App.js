@@ -5,7 +5,7 @@ export default function App() {
   return (
     <div>
       <Painting
-        //imageUrl={paintings[0].url}
+        imageUrl={paintings[0].url}
         title={paintings[0].title}
         profileUrl={paintings[0].author.url}
         price={paintings[0].price}
